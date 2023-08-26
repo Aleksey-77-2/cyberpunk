@@ -1,0 +1,83 @@
+.hero{
+    min-height: 1000px;
+    background-image: url(../img/backroun-header__1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: changing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 20s;
+}
+@keyframes changing{
+    0%{
+        background-image: url(../img/backroun-header__1.jpg);
+    }
+    35%{
+        background-image: url(../img/backroun-header__2.jpg);
+    }
+    68%{
+        background-image: url(../img/backroun-header__3.jpg);
+    }
+}
+.raffle{
+    color:#fff;
+    background-color:#000;
+}
+.logo-raffle{
+    width: 132px;
+    height: 132px;
+    background-image:url(../img/raffle-logo.svg);
+}
+.services{
+    margin: 0;
+    padding-top: 4.375rem;
+    padding-bottom: 5rem;
+    background-color: #F8F200;
+}
+.purchase__logo-game{
+    position: absolute;
+    height: 42.75rem;
+    background-image:url(../img/game.jpg);
+    width: 50%;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.purchase-product__top-1{
+    width: 3.875rem;
+    height: 2.25rem;
+    background-image:url(../img/PC.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.purchase-product__top-2{
+    width: 11.125rem;
+    height: 2.25rem;
+    background-image:url(../img/xbox-one-3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.purchase-product__bootom-1{
+    width: 3.625rem;
+    height: 3.1875rem;
+    background-image:url(../img/stadia.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.purchase-product__bootom-2{
+    width: 10.5rem;
+    height: 2.25rem;
+    background-image:url(../img/Playstation.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-bottom{
+    color:#fff;
+    background-color: #000;
+}

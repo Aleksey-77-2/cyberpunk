@@ -1,0 +1,261 @@
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+}
+@media(max-width:992px){
+    html{
+        font-size: 14px;
+    }
+}
+@media(max-width:762px){
+    html{
+        font-size: 15px;
+    }
+}
+@media(max-width:404px){
+    html{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media(max-width:1400px){
+    .services__company{
+        flex-direction: column;
+    }
+    .services-wrap__company:not(:last-child){
+        padding-bottom: 25px;
+    }
+}
+@media(max-width:1200px){
+    .services__company{
+        flex-direction: row;
+        padding-top: 67px;
+    }
+    .services-wrap__company:not(:last-child){
+        padding-bottom: 25px;
+    }
+}
+@media(max-width:1199px){
+    .hero{
+        background-image: url(../img/backround_1024_1.jpg);
+    }
+    @keyframes changing{
+        0%{
+            background-image: url(../img/backround_1024_1.jpg);
+        }
+        35%{
+            background-image: url(../img/backround_1024_2.jpg);
+        }
+        68%{
+            background-image: url(../img/backround_1024_3.jpg);
+        }
+    }
+    .desctop-mobile{
+        display: none;
+    }
+    .raffle-desctop{
+        display: flex;
+    }
+    .services__company{
+        flex-direction: column;
+        padding-top: 49px;
+    }
+    .cards-grid{
+        grid-template-areas: 
+            "wade1 wade1 wade2 wade2"
+            "wade3 wade3 wade3 wade3"
+            "wade3 wade3 wade3 wade3";
+    }
+    .sale-1{grid-area: wade1;}
+    .sale-2{grid-area: wade2;}
+    .sale-3{grid-area: wade3;}
+    .footer-wrap{
+        justify-content: space-evenly;
+    }
+    .purchase__logo-game{
+        width: 35%;
+    }
+    .wrap-raffle__top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 39px;
+        align-items:normal;
+    }    
+    .wrap-raffle-desc__img{
+        display: none;
+    }
+    .wrap-raffle__img{
+        display:block;
+    }
+}
+@media(max-width:991px){
+    .raffle-img__mobile{
+        display: block;
+        padding-bottom: 25.15px;
+    }
+    .desctop-mobile{
+        display: block;
+    }
+    .raffle-desctop{
+        display: none;
+    }
+    .raffle-wrap__smal{
+        display: none;
+    }
+    .raffle-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    .services-title{
+        padding-bottom: 25px;
+    }
+    .footer-img{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 25px;
+        width: 200px;
+    }
+    .footer-wrap{
+        padding: 13px 0 0 0;
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer-desc{
+        display: none;
+    }
+    .footer-desc_mobile{
+        display: block;
+        padding: 25px 0;
+        text-align: center;
+        background-color: #E6E6E6;
+    }
+    .footer-menu{
+        text-decoration: none;
+        color:black;
+    }
+    .footer-top__item:not(:last-child) {
+        padding-right: 0;
+    }
+    .services__company{
+        flex-direction: row;
+        padding-bottom: 40px;
+    }
+    .services-top__img{
+        text-align: center;
+    }
+    .footer-logo__1{
+        padding: 0;
+    }
+}
+@media(max-width:767px){
+    .cards-grid{
+        grid-template-areas: 
+            "wade1 wade1"
+            "wade2 wade2"
+            "wade3 wade3"
+            "wade3 wade3";
+    }
+    .sale-1{grid-area: wade1;}
+    .sale-2{grid-area: wade2;}
+    .sale-3{grid-area: wade3;}
+    .hero-content{
+        justify-content: center;
+    }
+    .header-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .purchase__logo-game{
+        width: 100%;
+        height: 400px;
+    }
+    .purchase-wrapp {
+        padding-top: 450px;
+    }
+    .logo{
+        padding-bottom: 10px;
+    }
+    .hero-title{
+        font-size: 2.875rem;
+        line-height: 2.9375rem;
+    }
+    .button-hero{
+        font-size: 1rem;
+    }
+    .raffle-wrap__smal{
+        display: block;
+    }
+    .raffle-wrap__block{
+        display: none;
+    }
+}
+@media(max-width:507px){
+    .change-title{
+        font-size: 2.875rem;
+        line-height: 2.9375rem;
+    }
+    .purchase-title{
+        font-size: 2.875rem;
+        line-height: 2.9375rem;
+    }
+    .services-title {
+        font-size: 2.875rem;
+        line-height: 2.9375rem;
+    }
+}
+@media(max-width:427px){
+    .hero-content{
+        padding-top: 48.8125rem;
+    }
+    .hero-title {
+        font-size: 1.875rem;
+        line-height: 1.9375rem;
+    }
+    .button-hero{
+        padding: 0.1875rem 2.125rem;
+    }
+}
+@media (max-width: 404px){}
+.hero-content {
+    padding-top: 65.8125rem;
+}
+@media (max-width: 390px){
+    .addfile{
+        max-width: 200px;
+        margin-left: 60px;
+    }
+    .logo-raffle{
+        width: 62px;
+        height: 62px;
+        background-image:url(../img/Group\ 215.png);
+    }
+}
+@media(max-width:320px){
+    .hero{
+        background-image: url(../img/backround_320_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation-name: changing;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 20s;
+    }
+    @keyframes changing{
+        0%{
+            background-image: url(../img/backround_320_1.jpg);
+        }
+        35%{
+            background-image: url(../img/backround_320_2.jpg);
+        }
+        68%{
+            background-image: url(../img/backround_320_3.jpg);
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.button-hero{
+    font-family: var(--font-family-RB);
+    padding: 1.1875rem 3.125rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #F8F200;
+    background-color: #000;
+    transition: .8s;
+}
+.button-hero:hover{
+    color: rgb(255, 189, 9);  
+    background-color: #475208;
+}
+.form__button{
+    margin-top: 3.375rem;
+    font-family: var(--font-family-RB);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    background-color: #F8F200;
+    color: #000;
+    transition: .8s;
+}
+.form__button:hover{
+    background-color: #aaa702;
+    color: #000;
+}
+.button{
+    padding: 1.1875rem 3.125rem;;
+}

@@ -1,0 +1,17 @@
+.cards-grid{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: grid;
+    gap: 1em;
+    grid-auto-rows: minmax(196px, auto);
+    grid-template-areas: 
+        "wade1 wade1 wade3 wade3"
+        "wade2 wade2 wade3 wade3";
+}
+.sale-1{grid-area: wade1;}
+.sale-2{grid-area: wade2;}
+.sale-3{grid-area: wade3;}
+
+.raffle-grid{
+    padding-top: 70px;
+}
